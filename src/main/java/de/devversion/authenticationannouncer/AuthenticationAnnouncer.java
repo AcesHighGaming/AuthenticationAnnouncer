@@ -29,7 +29,7 @@ public class AuthenticationAnnouncer extends Plugin implements Listener {
 	@EventHandler
 	public void onAuthenticated(final PlayerOnAuthenticatedEvent e) {
 		if (eaguids.containsKey(e.getSoldiername())) {
-			this.getCommandInterface().getAdmin().sayGlobal("Welcome " + e.getSoldiername() + " with the GUID " + eaguids.get(e.getSoldiername()) + " to our server.");
+			this.getCommandInterface().getAdmin().sayGlobal("Welcome " + e.getSoldiername() + " with the GUID " + eaguids.get(e.getSoldiername()).substring(3, 11) + " to our server.");
 		}
 	}
 
