@@ -1,0 +1,6 @@
+{
+	"name": "AuthenticationAnnouncer",
+	"version": "0.0.1",
+	"description": "Authentication Announcer Plugin for BFCON",
+	"main": "de.devversion.authenticationannouncer.AuthenticationAnnouncer"
+}
